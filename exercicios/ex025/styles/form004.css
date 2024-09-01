@@ -1,0 +1,14 @@
+
+body {
+    background-color: rgba(2, 26, 26, 0.158);
+}
+
+h1 {
+    text-align: center;
+}
+
+#submit, #reset {
+    background-color: rgba(0, 0, 0, 0.184);
+    cursor: pointer;
+    border-radius: 3px;
+}

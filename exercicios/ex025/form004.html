@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de formulário</title>
+    <link rel="stylesheet" href="styles/form004.css">
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
@@ -23,8 +24,8 @@
                 <input type="tel" name="tel" id="itel" autocomplete="telefone nacional" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxx-xxxxxx" maxlength="9">
             </p>
             <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                <input id="submit" type="submit" value="Enviar">
+                <input id="reset" type="reset" value="Limpar">
             </p>
         </fieldset>
     </form>
