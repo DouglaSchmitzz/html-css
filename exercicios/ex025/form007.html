@@ -10,7 +10,7 @@
             align-items: center;
             flex-direction: column;
             font-size: 25px;
-            background-color: rgba(0, 0, 0, 0.104);
+            background-color: rgba(0, 0, 0, 0);
         }
         h1 {
             display: flex;
@@ -18,48 +18,51 @@
             flex-direction: column;
             margin-top: 50px;
         }
+        #fm {
+            margin-left: 490px;
+            width: 550px;
+        }
     </style>
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <p>
-            <label for="iest">Estado</label>
-            <select name="estado" id="iest">
-
-                <option value="" selected>---Escolha---</option>
-                <optgroup label="Região Sul">
-                    <option value="PR">Paraná</option>
-                    <option value="SC" selected>Santa Catarina</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                </optgroup>
-
-                <optgroup label="Região Sudeste">
-                    <option value="SP">São Paulo</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="MG">Minas Gerais</option>
-                </optgroup>
-            </select>
-        </p>
-
-        <p>
-            <label for="iprof">Profissão</label>
-            <input type="text" name="prof" id="iprof" list="lstprof">
-            <datalist id="lstprof">
-                <option value="ADM">Administrador</option>
-                <option value="CONT">Contabilista</option>
-                <option value="DEV">Desenvolvedor</option>
-                <option value="PROF">Professor</option>
-            </datalist>
-        </p>
-        <p>
-            <label for="imsg">Mensagem</label><br>
-            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe aqui sua mensagem"></textarea>
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-    </form>
+    <fieldset id="fm">
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iest">
+                    <option value="" selected>---Escolha---</option>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC" selected>Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contabilista</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="PROF">Professor</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="imsg">Mensagem</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe aqui sua mensagem"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
 </body>
 </html>
