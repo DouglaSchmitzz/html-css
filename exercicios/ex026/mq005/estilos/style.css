@@ -11,7 +11,7 @@ body, html {
 }
 
 header {
-    background-color: grey;
+    background-color: rgba(55, 30, 30, 0.448);
 }
 
 header > h1 {
