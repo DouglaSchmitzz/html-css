@@ -20,7 +20,7 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: rgba(48, 48, 48);
+    background-color: rgba(41, 73, 40, 0.57);
     color: white;
     display: block;
     text-align: center;
@@ -47,13 +47,13 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(22, 30, 15);
     color: white;
-    border-top: 2px solid rgb(128, 128, 128);
+    border-top: 2px solid rgba(37, 140, 185, 0.19);
 }
 
 menu > ul > li > a:hover {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.623);
 }
 
 main {
