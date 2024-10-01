@@ -7,7 +7,7 @@
 }
 
 body, html {
-    background-color: lightgrey;
+    background-color: rgba(37, 35, 35, 0.427);
 }
 
 header {
@@ -51,9 +51,11 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(22, 30, 15);
+    background-color: rgba(177, 200, 157, 0.716);
     color: white;
     border-top: 2px solid rgba(37, 140, 185, 0.19);
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 menu > ul > li > a:hover {
