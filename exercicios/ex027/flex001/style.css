@@ -1,0 +1,10 @@
+
+.item {
+    background-color: rgb(23, 87, 87);
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(92, 66, 60);
+}
