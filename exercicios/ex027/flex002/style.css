@@ -1,0 +1,15 @@
+
+.item {
+    background-color: rgb(128, 160, 160);
+    border: 1.5px solid black;
+    text-align: center;
+    padding: 10px;
+    
+  
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
